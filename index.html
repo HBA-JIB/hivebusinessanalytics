@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hive Business Analytics</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+<div class="logo" style="background-color: #03057B; padding: 1rem; display: inline-block;">
+    <svg width="650" height="140" viewBox="0 0 650 160" xmlns="http://www.w3.org/2000/svg">
+        <!-- DEFINITIONS FOR FILTER -->
+        <defs>
+            <filter id="hex-glow" x="-20%" y="-20%" width="140%" height="140%">
+                <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#FFA500" flood-opacity="0.7"/>
+            </filter>
+        </defs>
+
+        <!-- HEXAGONS -->
+        <g>
+            <!-- Hexagon 1 -->
+            <polygon points="60,20 100,45 100,85 60,110 20,85 20,45"
+                     fill="#F4C542" stroke="#FFA500" stroke-width="2" filter="url(#hex-glow)"/>
+            <!-- Icon: Bar Chart -->
+            <g transform="translate(38,50)">
+                <rect width="5" height="20" fill="#000"/>
+                <rect x="10" y="5" width="5" height="15" fill="#000"/>
+                <rect x="20" y="10" width="5" height="10" fill="#000"/>
+            </g>
+
+            <!-- Hexagon 2 -->
+            <polygon points="130,20 170,45 170,85 130,110 90,85 90,45"
+                     fill="#F4C542" stroke="#FFA500" stroke-width="2" filter="url(#hex-glow)"/>
+            <!-- Icon: Line Chart -->
+            <g transform="translate(115,55)">
+                <polyline points="0,20 10,10 20,12 30,2" fill="none" stroke="#000" stroke-width="2"/>
+                <circle cx="0" cy="20" r="2" fill="#000"/>
+                <circle cx="10" cy="10" r="2" fill="#000"/>
+                <circle cx="20" cy="12" r="2" fill="#000"/>
+                <circle cx="30" cy="2" r="2" fill="#000"/>
+            </g>
+
+            <!-- Hexagon 3 -->
+            <polygon points="100,70 140,95 140,135 100,160 60,135 60,95"
+                     fill="#F4C542" stroke="#FFA500" stroke-width="2" filter="url(#hex-glow)"/>
+            <!-- Icon: Pie Chart -->
+            <g transform="translate(85,105)">
+                <circle cx="15" cy="15" r="12" fill="#000"/>
+                <path d="M15,15 L15,3 A12,12 0 0,1 27,15 Z" fill="#F4C542"/>
+            </g>
+        </g>
+
+        <!-- LOGO TEXT -->
+        <g transform="translate(220,40)" font-family="'Segoe UI', sans-serif">
+            <text x="0" y="0" font-size="28" font-weight="bold">
+                <tspan fill="#FFFFFF">HIVE </tspan>
+                <tspan fill="#F4C542">BUSINESS</tspan>
+            </text>
+            <text x="0" y="30" font-size="24" font-weight="bold" fill="#FFFFFF">ANALYTICS</text>
+            <line x1="0" y1="38" x2="240" y2="38" stroke="#F4C542" stroke-width="2"/>
+        </g>
+
+        <!-- TAGLINE -->
+        <g transform="translate(220,90)">
+            <text x="0" y="30" font-size="18" font-family="'Cursive', serif" fill="#FFFFFF">
+                Where <tspan fill="#F4C542">data</tspan> meets strategy
+            </text>
+        </g>
+    </svg>
+</div>
+
+
+ 
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#upcoming-event">Upcoming Event</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2><span class="navy-text">Revolutionize Your Business with </span><span class="orange-text">AI-Powered</span> <span class="navy-text">Data Insights</span></h2>
+            <p>Hive Business Analytics helps organizations unlock the power of their data, delivering actionable insights that drive growth and innovation.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-poll"></i>
+                    </div>
+                    <h3>Survey Research and Analysis</h3>
+                    <p>Collect and analyze data through structured surveys to uncover valuable insights.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile App Development</h3>
+                    <p>Create custom mobile solutions that align with your business goals and user needs.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Technical Training and Upskills</h3>
+                    <p>Enhance your team's capabilities with specialized training in AI, machine learning, and data science technologies.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Business Intelligence</h3>
+                    <p>Gain a competitive edge with data-driven strategic decisions.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Data Warehousing</h3>
+                    <p>Centralize your data for comprehensive analysis and reporting.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h3>Data Visualization</h3>
+                    <p>Transform raw data into compelling visuals for better insights.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Predictive Analytics</h3>
+                    <p>Forecast future trends using machine learning and make proactive adjustments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Hive Business Analytics</h2>
+            <div class="about-content">
+                <p><i class="fas fa-star"></i> Founded by industry experts with over 20 years of combined experience, Hive Business Analytics specializes in leveraging Artificial Intelligence (AI) and Machine Learning (ML) to transform raw data into actionable insights.</p>
+                
+                <p><i class="fas fa-users"></i> We are a team of experienced <strong>Data Scientists</strong>, <strong>Statisticians</strong>, and <strong>Software Developers</strong> dedicated to empowering businesses with advanced analytics solutions. Our expertise spans across AI-driven data modeling, predictive analytics, and intelligent automation, enabling organizations to make data-backed decisions with confidence.</p>
+                
+                <p><i class="fas fa-lightbulb"></i> At Hive Business Analytics, we believe that every organization, regardless of its size, should have access to cutting-edge analytics tools and insights. Our team works collaboratively to deliver innovative solutions that drive measurable business impact.</p>
+                
+                <p><i class="fas fa-clipboard-check"></i> With extensive experience in surveys and data collection, we offer end-to-end data collection through both Computer-Assisted Personal Interviewing (CAPI) and Paper-and-Pencil Interviewing (PAPI) methodologies. Our highly trained pool of interviewers is ready to conduct data collection efficiently and accurately, ensuring the highest data quality for your business needs.</p>
+                
+                <h3>Our Approach</h3>
+                <p><i class="fas fa-cogs"></i> We combine cutting-edge AI technology with deep industry expertise to deliver insights that drive meaningful business outcomes. Our data-driven approach ensures that every solution is tailored to your specific business challenges and opportunities. By integrating advanced machine learning algorithms with robust statistical methods, we can identify patterns, predict trends, and uncover insights that might otherwise remain hidden in your data. Our collaborative process involves working closely with your team to understand your business goals, designing custom analytics solutions, and implementing them in a way that delivers maximum value and ROI.</p>
+                
+                <div class="benefits">
+                    <div class="benefits-grid">
+                        <div class="benefit-card">
+                            <h4>Data-driven Decision Making</h4>
+                        </div>
+                        <div class="benefit-card">
+                            <h4>Increased Operational Efficiency</h4>
+                        </div>
+                        <div class="benefit-card">
+                            <h4>Enhanced Customer Insights</h4>
+                        </div>
+                        <div class="benefit-card">
+                            <h4>Better Resource Allocation</h4>
+                        </div>
+                        <div class="benefit-card">
+                            <h4>Competitive Market Advantage</h4>
+                        </div>
+                        <div class="benefit-card">
+                            <h4>Improved Risk Management</h4>
+                        </div>
+                    </div>
+                    <p>Let us help you harness the power of data to fuel your success.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <div class="gallery-tabs">
+                <div class="tabs">
+                    <button class="tab-btn active" data-event="event1" id="event1-tab">Event Name</button>
+                    <div class="rename-event-btn" title="Rename Event"><i class="fas fa-edit"></i></div>
+                    <div class="add-event-btn" title="Add New Event">+</div>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="event1">
+                        <div class="file-upload">
+                            <label for="event1-photos" class="file-upload-btn">Upload Photos (Max 3)</label>
+                            <input type="file" id="event1-photos" accept="image/*" multiple>
+                            <div class="file-name">No files selected</div>
+                        </div>
+                        <div class="gallery-images">
+                            <div class="gallery-image">
+                                <img src="https://source.unsplash.com/random/600x400/?data,analytics,1" alt="AI Conference 2024 Image 1">
+                            </div>
+                            <div class="gallery-image">
+                                <img src="https://source.unsplash.com/random/600x400/?data,analytics,2" alt="AI Conference 2024 Image 2">
+                            </div>
+                            <div class="gallery-image">
+                                <img src="https://source.unsplash.com/random/600x400/?data,analytics,3" alt="AI Conference 2024 Image 3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="upcoming-event">
+        <div class="container">
+            <h2>Upcoming Event</h2>
+            <div class="file-upload">
+                <label for="event-poster" class="file-upload-btn">Upload Event Poster</label>
+                <input type="file" id="event-poster" accept="image/*">
+                <div class="file-name">No file selected</div>
+            </div>
+            <div class="event-poster">
+                <img src="https://source.unsplash.com/random/800x1000/?event,poster" alt="Upcoming Event Poster">
+            </div>
+            <div class="register-button">
+                <a href="https://forms.google.com" target="_blank" class="btn register-btn">Register Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="message-section">
+                    <h2>Send us a message</h2>
+                    <form id="contact-form" action="https://formspree.io/f/xanonyaq" method="POST" onsubmit="handleSubmit(event)">
+			<input type="hidden" name="_subject" value="New message from Hive Business Analytics!">
+                        <div class="form-group">
+                            <label for="fullname">Full Name</label>
+                            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company Name</label>
+                            <input type="text" id="company" name="company" placeholder="Enter your company name">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+			<id="form-message" style="display:none; color: green; margin-top: 1rem;">
+    				Thank you! Your message has been sent.
+                </div>
+                
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <h3>Contact Person:</h3>
+                            <p>Tawheeda Sowdagur (Mrs)</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Phone / WhatsApp</h3>
+                            <p>+230 5786-9461</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Email</h3>
+                            <p>hivebusinessanalytics@gmail.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Address</h3>
+                            <p>Royal Road Bel-Air Riviere Seche<br>Mauritius, 40101</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Hive Business Analytics</h3>
+                    <p>Transforming business data into actionable insights for growth and innovation.</p>
+                </div>
+                
+                <div class="footer-services">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#services">Survey Research and Analysis</a></li>
+                        <li><a href="#services">Mobile App Development</a></li>
+                        <li><a href="#services">Business Intelligence</a></li>
+                        <li><a href="#services">Data Visualization</a></li>
+                        <li><a href="#services">Predictive Analytics</a></li>
+                        <li><a href="#services">Data Warehousing</a></li>
+                        <li><a href="#services">Technical Training and Upskills</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#upcoming-event">Upcoming Event</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Hive Business Analytics. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
